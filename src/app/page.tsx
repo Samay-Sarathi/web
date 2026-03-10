@@ -126,10 +126,10 @@ export default function Home() {
                   <span className="text-sm font-semibold text-foreground">Emergency in Progress</span>
                 </div>
                 <div className="space-y-3">
-                  <FlowStep step="1" text="Ambulance dispatched — vitals being recorded" done />
-                  <FlowStep step="2" text="AI matched to hospital with cardiac ICU beds" done />
-                  <FlowStep step="3" text="3 traffic police clearing route intersections" done />
-                  <FlowStep step="4" text="Hospital trauma team on standby" active />
+                  <FlowStep step="1" text="Ambulance dispatched — patient vitals being entered" done />
+                  <FlowStep step="2" text="AI matched to nearest hospital with available beds" done />
+                  <FlowStep step="3" text="3 traffic police clearing route ahead" done />
+                  <FlowStep step="4" text="Hospital staff prepared — bed reserved, doctors alerted" active />
                 </div>
               </div>
             </div>
