@@ -201,7 +201,7 @@ export default function Home() {
               <Download size={18} />
               Download for Android
             </a>
-            <a href="mailto:contact@samaysarathi.in" className="border-2 border-white/30 text-white px-8 py-3.5 rounded-xl text-base font-semibold hover:bg-white/10 transition flex items-center gap-2">
+            <a href="mailto:contact@samaysarathi.in" target="_blank" rel="noopener noreferrer" className="border-2 border-white/30 text-white px-8 py-3.5 rounded-xl text-base font-semibold hover:bg-white/10 transition flex items-center gap-2">
               <Phone size={18} />
               Contact Us
             </a>
@@ -220,9 +220,9 @@ export default function Home() {
             </div>
           </div>
           <div className="flex items-center gap-6 text-sm text-muted">
-            <a href="https://github.com/Samay-Sarathi" className="hover:text-foreground transition">GitHub</a>
-            <a href="mailto:contact@samaysarathi.in" className="hover:text-foreground transition">Contact</a>
-            <a href="https://samaysarathi.in/samaysarathi.apk" className="hover:text-foreground transition">Download</a>
+            <a href="https://github.com/Samay-Sarathi" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition">GitHub</a>
+            <a href="mailto:contact@samaysarathi.in" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition">Contact</a>
+            <a href="https://samaysarathi.in/samaysarathi.apk" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition">Download</a>
           </div>
           <p className="text-xs text-muted">© 2026 Samay Sarathi. All rights reserved.</p>
         </div>
